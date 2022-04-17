@@ -1,8 +1,8 @@
 spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@192.168.237.1:1521:orcl  # 如果端口或者SID不一样按情况更换
-    username: yangfan # 要改成自己数据库登录用户名
+    url: jdbc:oracle:thin:@192.168.123.1:1521:orcl  # 如果端口或者SID不一样按情况更换
+    username: root # 要改成自己数据库登录用户名
     password: root # 要改成自己数据库登录密码
   jpa:
     database: oracle
